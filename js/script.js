@@ -103,3 +103,14 @@ function makeColor() {
 	var b = Math.floor(Math.random() * 256);
 	return "rgb(" + r + ", " + g + ", " + b + ")"; 
 }
+
+
+$(document).ready(function(){
+	$("#play").click(function(){
+    Audio('sound.mp3')
+	music.play() 
+	});
+});
+
+const music = new Audio('sound.mp3');
+music.play();

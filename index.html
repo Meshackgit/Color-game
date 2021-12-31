@@ -9,6 +9,8 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
 </head>
 <body>
+	<button id="play">PLay</button>
+	<button id="stop">Stop music</button>
     <h1> Play The Great <span id="color-display">RGB</span>Meshack Color  Guessing Game</h1>
 	<div id ="stripe">
 		<button id="reset">New Colors</button>
@@ -24,11 +26,13 @@
 		<div class="square"></div>
 		<div class="square"></div>
 	</div>
+<audio src="color.mp3" autoplay loop></audio>
 
 
 
 
 
    <script src="js/script.js"></script> 
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"></script>
 </body>
 </html>

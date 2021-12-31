@@ -85,3 +85,10 @@ button:hover {
 * {
 	border: 0px solid red;
 }
+
+#play {
+	position: relative;
+	
+	height: 100%;
+
+}
